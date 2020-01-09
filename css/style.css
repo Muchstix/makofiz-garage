@@ -61,5 +61,21 @@ header .site-title {
 
 .navbar-nav .nav-link {
 	font-size: 0.9em;
+	color: var(--light-gray)!important;
 }
 
+.navbar-nav .nav-item .nav-link {
+	padding: 0 1.3em;
+}
+
+.navbar-nav .basket-icon {
+	margin-right: 6.5rem !important;
+}
+
+.img-fluid {
+	height: 400px;
+	width: 500px;
+	border-radius: 5%;
+}
+
+ 
