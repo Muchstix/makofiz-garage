@@ -111,6 +111,26 @@ header .site-title {
     color: #333;
 }
 
+.band-name {
+	font: Anton;
+}
+
+ /* footer */
+
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+.page-footer {
+    
+	margin: 0 auto;
+	background-color: #45ccb4;
+    padding: 0 1.5em;
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
     .row {
