@@ -2,14 +2,14 @@
 
 $('.single-item').slick({
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 300,
     slidesToShow: 1,
     centerMode: true,
     dots: true,
     prevArrow: ".site-slider .slider-btn .prev",
     nextArrow: ".site-slider .slider-btn .next",
-    centerPadding: '60px'
+    centerPadding: '600px'
 });
 
 /* second slider */
@@ -47,4 +47,10 @@ $('.center').slick(
     ]
   }
 );
+ /* third slider */
 
+ $('.carousel').carousel({
+    interval: 20000,
+    prev: ".carousel-control-prev",
+    next: ".carousel-control-next" 
+  })

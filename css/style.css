@@ -80,6 +80,14 @@ header .site-title {
 
 /* Slider One */
 
+
+.single-item {
+	position: relative;
+}
+
+/* second slider */
+
+
 .site-slider {
 	position: relative;
 }
@@ -114,18 +122,17 @@ header .site-title {
 .band-name {
 	font: Anton;
 }
-
  /* footer */
 
 .hm-gradient {
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .darken-grey-text {
-    color: #2E2E2E;
+    color: #ffffff;
 }
 
 .page-footer {
-    
+    color: #ffffff;
 	margin: 0 auto;
 	background-color: #45ccb4;
     padding: 0 1.5em;
